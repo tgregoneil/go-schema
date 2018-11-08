@@ -1,37 +1,37 @@
 ### go-schema
 
-Examines Schema structure for mongoDB databases hosted at localhost.
-
-Usage
-
-  You must specify database and collection.
-  
-  Outputs document keys and their types, recursively traversing objects and
-  arrays. Unless 'all' option is specified, outputs one composite meta-document
-  reflectingthe structure of all the documents such that if any key appears in any
-  document,then those keys are included in the composite.
-  
-  Optional arguments:
-  
-  keysonly => only outputs primary keys from all documents
-  
-  all => Outputs a separate meta-document for each document type. If every
-  document has the same structure then only one meta-document will be output. This
-  option is useful to identify if documents have varying structures and outputs a
-  meta-document for each document unique type.
-  
-  full => If not specified, the uniqueness of documents is determined by key names
-  only. Specifying 'full' includes the types of keys for determining unique
-  signatures.
-  
-
-Options
-
-  -d, --database string      
-  -c, --collection string    
-  -k, --keysonly             
-  -a, --all                  
-  -f, --full                 
+    Examines Schema structure for mongoDB databases hosted at localhost.
+    
+    Usage
+    
+      You must specify database and collection.
+      
+      Outputs document keys and their types, recursively traversing objects and
+      arrays. Unless 'all' option is specified, outputs one composite meta-document
+      reflectingthe structure of all the documents such that if any key appears in any
+      document,then those keys are included in the composite.
+      
+      Optional arguments:
+      
+      keysonly => only outputs primary keys from all documents
+      
+      all => Outputs a separate meta-document for each document type. If every
+      document has the same structure then only one meta-document will be output. This
+      option is useful to identify if documents have varying structures and outputs a
+      meta-document for each document unique type.
+      
+      full => If not specified, the uniqueness of documents is determined by key names
+      only. Specifying 'full' includes the types of keys for determining unique
+      signatures.
+      
+    
+    Options
+    
+      -d, --database string      
+      -c, --collection string    
+      -k, --keysonly             
+      -a, --all                  
+      -f, --full                 
 
 ### Installation
 ```shell
