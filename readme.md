@@ -33,6 +33,7 @@
       -a, --all                  
       -f, --full                 
 
+
 ### Installation
 ```shell
     $ npm install go-schema

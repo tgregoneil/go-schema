@@ -1,6 +1,6 @@
 {
   "name": "go-schema",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Finds Schema of a MongoDB Collection",
   "main": "index.js",
   "author": "T. Greg O'Neil, gpsfreak  <go22.npm@gmail.com> (http://tgregoneil.com)",
